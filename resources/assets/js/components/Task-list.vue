@@ -20,14 +20,14 @@
                         <li :class="{'is-active':isActive('current')}">
                             <h3 class="title">
                                 <a href="#" v-on:click.prevent="fetchTaskList()">
-                                    Current task
+                                    Pending task
                                 </a>
                             </h3>
                         </li>
                         <li :class="{'is-active':isActive('archive')}">
                             <h3 class="title">
                                 <a href="#" v-on:click.prevent="fetchTaskList(1)">
-                                    Archived tasks
+                                    Completed tasks
                                 </a>
                             </h3>
                         </li>
